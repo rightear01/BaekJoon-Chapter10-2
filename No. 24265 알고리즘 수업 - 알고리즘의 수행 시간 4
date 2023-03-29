@@ -1,0 +1,12 @@
+#define _CRT_SECURE_NO_WARNINGS
+#include <stdio.h>
+
+int main() {
+	unsigned long n, sum = 0; scanf("%lu", &n);
+	for (int i = 0; i < n; i++) {
+		sum += i;
+	}
+
+	printf("%lu\n%d", sum, 2);
+	return 0;
+}
